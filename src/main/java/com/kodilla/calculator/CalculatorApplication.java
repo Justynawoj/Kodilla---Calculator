@@ -8,6 +8,12 @@ public class CalculatorApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CalculatorApplication.class, args);
+
+        Calculator calculator = new Calculator();
+        calculator.addMethod(2,2);
+        calculator.substractMethod(5,2);
+
+
     }
 
 }
